@@ -24,7 +24,7 @@ public class MainApp {
     public static void integer(int b, int i) {
             if (i > 0) {
                 System.out.println("false");
-            } else /*(i < 0)*/ {
+            } else {
                 System.out.println("true");
             }
 
