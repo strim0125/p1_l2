@@ -2,8 +2,8 @@ public class MainApp {
     public static void main(String[] args) {
 
         twoDugits(3,50);
-        digit(5);
-
+        digit(-60);
+        integer(10, -7);
     }
 
     public static void twoDugits(int a, int b){
@@ -19,5 +19,15 @@ public class MainApp {
             System.out.println("positive");
         else
             System.out.println("negative");
+    }
+
+    public static void integer(int b, int i) {
+            if (i > 0) {
+                System.out.println("false");
+            } else /*(i < 0)*/ {
+                System.out.println("true");
+            }
+
+
     }
 }
