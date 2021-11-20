@@ -16,7 +16,7 @@ public class MainApp {
 
     public static void digit(int a) {
         if (a >= 0)
-            System.out.println("poiitive");
+            System.out.println("positive");
         else
             System.out.println("negative");
     }
