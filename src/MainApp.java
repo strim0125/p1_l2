@@ -2,7 +2,7 @@ public class MainApp {
     public static void main(String[] args) {
 
         twoDugits(3,50);
-
+        digit(5);
 
     }
 
